@@ -22,7 +22,7 @@ cd mmdetection
 You should now be able to run:
 
 ```bash
-python demo/image_demo.py images/test.jpeg configs/rtmdet/rtmdet_tiny_1xb4-20e_ycb.py --weights work_dirs/rtmdet_tiny_1xb4-20e_ycb/best_coco_bbox_mAP_epoch_20.pth --device cuda:0 --pred-score-thr 0.4
+python demo/image_demo.py images/test.jpeg configs/rtmdet/rtmdet_tiny_1xb4-20e_ycb.py --weights work_dirs/rtmdet_tiny_1xb4-20e_ycb/best_coco_bbox_mAP_epoch_20.pth --device cpu --pred-score-thr 0.4
 
 ```
 
