@@ -12,10 +12,6 @@ IMAGE_PATH = "cropped-banner4.jpg"
 
 image_bgr = cv2.imread(IMAGE_PATH)
 image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
-# plt.imshow(image_rgb)
-# plt.title("Annotated Image")
-# plt.axis("off")
-# plt.show()
 
 sam = sam_model_registry["vit_h"](checkpoint="sam_vit_h_4b8939.pth")
 
@@ -41,9 +37,6 @@ mask_annotator = sv.MaskAnnotator(
 detections = sv.Detections.from_sam(result)
 annotated_image = mask_annotator.annotate(image_bgr, detections)
 
-# print(result)
-# with open("result.json", "w") as f:
-#     json.dump(result, f)
 saveable_result = []
 for mask_info in result:
     # Omit the "segmentation" field (which is a numpy array) 
