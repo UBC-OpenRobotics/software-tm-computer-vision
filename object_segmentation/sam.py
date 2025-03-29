@@ -5,12 +5,19 @@ import cv2
 import numpy as np
 import supervision as sv
 import json
-# import rospy
+import rclpy
 
 from segment_anything import SamPredictor, sam_model_registry
 from segment_anything import SamAutomaticMaskGenerator
-# from cv_bridge import CvBridge
-# from sensor_msgs.msg import Image
+from cv_bridge import CvBridge
+from sensor_msgs.msg import Image
+
+class SimplePubSub(Node):
+    def __init__(self):
+        super().__init__('simple_pub_sub')
+        self.publisher = self.create_publisher(Image, '/image_processed', 10)
+        self.subscription = self.create_subscription(
+            Image, '/image_raw', self.img_callback, 10)
 
 
 def crop_to_square(image, bbox):
@@ -62,10 +69,11 @@ def crop_to_square(image, bbox):
     return final_crop
 
 def main(IMAGE_PATH):
-    rospy.init_node("sam_square_cropper", anonymous=True)
+    rclpy.init()
+    node = rclpy.create_node("sam_cropper")
 
     # cropped images publisher
-    pub = rospy.Publisher("/cropped_square_images", Image, queue_size=10)
+    pub = node.create_publisher(Image, "/cropped_images", 10)
     bridge = CvBridge()
 
     image_bgr = cv2.imread(IMAGE_PATH)
@@ -120,7 +128,9 @@ def main(IMAGE_PATH):
         # cropped_square_rgb = cv2.cvtColor(cropped_square, cv2.COLOR_BGR2RGB)
         ros_image = bridge.cv2_to_imgmsg(cropped_square, encoding="bgr8")
         pub.publish(ros_image)
-        rospy.loginfo(f"Published cropped square image {i}")
+        node.get_logger().info(f"Published cropped square image {i}")
+
+    rclpy.shutdown()
 
 
     # annotated_image_rgb = cv2.cvtColor(annotated_image, cv2.COLOR_BGR2RGB)
