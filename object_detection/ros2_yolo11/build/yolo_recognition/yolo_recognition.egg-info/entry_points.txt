@@ -1,0 +1,4 @@
+[console_scripts]
+listener = yolo_recognition.yolo_subscriber:main
+talker = yolo_recognition.webcam_publisher:main
+

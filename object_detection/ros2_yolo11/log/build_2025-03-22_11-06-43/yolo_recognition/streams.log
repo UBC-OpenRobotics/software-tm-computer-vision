@@ -1,0 +1,29 @@
+[0.645s] Invoking command in '/home/kevin/ros2_yolo11/src/yolo_recognition': PYTHONPATH=/home/kevin/ros2_yolo11/build/yolo_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_recognition build --build-base /home/kevin/ros2_yolo11/build/yolo_recognition/build install --record /home/kevin/ros2_yolo11/build/yolo_recognition/install.log --single-version-externally-managed install_data
+[0.791s] running egg_info
+[0.792s] writing ../../build/yolo_recognition/yolo_recognition.egg-info/PKG-INFO
+[0.792s] writing dependency_links to ../../build/yolo_recognition/yolo_recognition.egg-info/dependency_links.txt
+[0.792s] writing entry points to ../../build/yolo_recognition/yolo_recognition.egg-info/entry_points.txt
+[0.792s] writing requirements to ../../build/yolo_recognition/yolo_recognition.egg-info/requires.txt
+[0.792s] writing top-level names to ../../build/yolo_recognition/yolo_recognition.egg-info/top_level.txt
+[0.793s] reading manifest file '../../build/yolo_recognition/yolo_recognition.egg-info/SOURCES.txt'
+[0.794s] adding license file 'LICENSE'
+[0.794s] writing manifest file '../../build/yolo_recognition/yolo_recognition.egg-info/SOURCES.txt'
+[0.794s] running build
+[0.795s] running build_py
+[0.795s] copying yolo_recognition/webcam_publisher.py -> /home/kevin/ros2_yolo11/build/yolo_recognition/build/lib/yolo_recognition
+[0.795s] copying yolo_recognition/yolo_subscriber.py -> /home/kevin/ros2_yolo11/build/yolo_recognition/build/lib/yolo_recognition
+[0.796s] running install
+[0.796s] running install_lib
+[0.796s] copying /home/kevin/ros2_yolo11/build/yolo_recognition/build/lib/yolo_recognition/webcam_publisher.py -> /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition
+[0.797s] copying /home/kevin/ros2_yolo11/build/yolo_recognition/build/lib/yolo_recognition/yolo_subscriber.py -> /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition
+[0.797s] byte-compiling /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition/webcam_publisher.py to webcam_publisher.cpython-310.pyc
+[0.797s] byte-compiling /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition/yolo_subscriber.py to yolo_subscriber.cpython-310.pyc
+[0.797s] running install_data
+[0.798s] running install_egg_info
+[0.798s] removing '/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition-0.0.0-py3.10.egg-info' (and everything under it)
+[0.800s] Copying ../../build/yolo_recognition/yolo_recognition.egg-info to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition-0.0.0-py3.10.egg-info
+[0.801s] running install_scripts
+[0.815s] Installing listener script to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/yolo_recognition
+[0.815s] Installing talker script to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/yolo_recognition
+[0.815s] writing list of installed files to '/home/kevin/ros2_yolo11/build/yolo_recognition/install.log'
+[0.854s] Invoked command in '/home/kevin/ros2_yolo11/src/yolo_recognition' returned '0': PYTHONPATH=/home/kevin/ros2_yolo11/build/yolo_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_recognition build --build-base /home/kevin/ros2_yolo11/build/yolo_recognition/build install --record /home/kevin/ros2_yolo11/build/yolo_recognition/install.log --single-version-externally-managed install_data

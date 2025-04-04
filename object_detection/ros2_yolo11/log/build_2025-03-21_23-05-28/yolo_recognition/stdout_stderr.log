@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/yolo_recognition/yolo_recognition.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolo_recognition/yolo_recognition.egg-info/dependency_links.txt
+writing entry points to ../../build/yolo_recognition/yolo_recognition.egg-info/entry_points.txt
+writing requirements to ../../build/yolo_recognition/yolo_recognition.egg-info/requires.txt
+writing top-level names to ../../build/yolo_recognition/yolo_recognition.egg-info/top_level.txt
+reading manifest file '../../build/yolo_recognition/yolo_recognition.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/yolo_recognition/yolo_recognition.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/yolo_recognition/yolo_recognition.egg-info to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo_recognition-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kevin/ros2_yolo11/build/yolo_recognition/install.log'

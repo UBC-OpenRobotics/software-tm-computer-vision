@@ -1,0 +1,18 @@
+[0.620s] Invoking command in '/home/kevin/ros2_yolo11/build/yolo_recognition': PYTHONPATH=/home/kevin/ros2_yolo11/build/yolo_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kevin/ros2_yolo11/build/yolo_recognition/build --no-deps symlink_data
+[0.784s] running develop
+[0.881s] running egg_info
+[0.881s] writing yolo_recognition.egg-info/PKG-INFO
+[0.882s] writing dependency_links to yolo_recognition.egg-info/dependency_links.txt
+[0.883s] writing entry points to yolo_recognition.egg-info/entry_points.txt
+[0.883s] writing requirements to yolo_recognition.egg-info/requires.txt
+[0.883s] writing top-level names to yolo_recognition.egg-info/top_level.txt
+[0.885s] reading manifest file 'yolo_recognition.egg-info/SOURCES.txt'
+[0.886s] writing manifest file 'yolo_recognition.egg-info/SOURCES.txt'
+[0.887s] running build_ext
+[0.887s] Creating /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo-recognition.egg-link (link to .)
+[0.888s] Installing listener script to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/yolo_recognition
+[0.889s] Installing talker script to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/yolo_recognition
+[0.889s] 
+[0.889s] Installed /home/kevin/ros2_yolo11/build/yolo_recognition
+[0.889s] running symlink_data
+[0.924s] Invoked command in '/home/kevin/ros2_yolo11/build/yolo_recognition' returned '0': PYTHONPATH=/home/kevin/ros2_yolo11/build/yolo_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kevin/ros2_yolo11/build/yolo_recognition/build --no-deps symlink_data

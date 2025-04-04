@@ -1,0 +1,20 @@
+[0.413s] Invoking command in '/home/kevin/ros2_yolo11/build/yolo_recognition': PYTHONPATH=/home/kevin/ros2_yolo11/build/yolo_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kevin/ros2_yolo11/build/yolo_recognition/build --no-deps symlink_data --force
+[0.627s] running develop
+[0.716s] running egg_info
+[0.716s] writing yolo_recognition.egg-info/PKG-INFO
+[0.717s] writing dependency_links to yolo_recognition.egg-info/dependency_links.txt
+[0.717s] writing entry points to yolo_recognition.egg-info/entry_points.txt
+[0.717s] writing requirements to yolo_recognition.egg-info/requires.txt
+[0.718s] writing top-level names to yolo_recognition.egg-info/top_level.txt
+[0.719s] reading manifest file 'yolo_recognition.egg-info/SOURCES.txt'
+[0.719s] writing manifest file 'yolo_recognition.egg-info/SOURCES.txt'
+[0.719s] running build_ext
+[0.721s] Creating /home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages/yolo-recognition.egg-link (link to .)
+[0.721s] Installing listener script to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/yolo_recognition
+[0.721s] Installing talker script to /home/kevin/ros2_yolo11/install/yolo_recognition/lib/yolo_recognition
+[0.721s] 
+[0.721s] Installed /home/kevin/ros2_yolo11/build/yolo_recognition
+[0.721s] running symlink_data
+[0.723s] symbolically linking /home/kevin/ros2_yolo11/build/yolo_recognition/resource/yolo_recognition -> /home/kevin/ros2_yolo11/install/yolo_recognition/share/ament_index/resource_index/packages
+[0.724s] symbolically linking /home/kevin/ros2_yolo11/build/yolo_recognition/package.xml -> /home/kevin/ros2_yolo11/install/yolo_recognition/share/yolo_recognition
+[0.751s] Invoked command in '/home/kevin/ros2_yolo11/build/yolo_recognition' returned '0': PYTHONPATH=/home/kevin/ros2_yolo11/build/yolo_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kevin/ros2_yolo11/install/yolo_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kevin/ros2_yolo11/build/yolo_recognition/build --no-deps symlink_data --force
